@@ -14,7 +14,7 @@ function Projects() {
           "Firebase, ",
           "Redux",
         ]}
-        imageSource={"../images/linkedIn.png"}
+        imageSource={"images/linkedIn.png"}
         features={[
           "Redux is used to manage global state of application",
           "Firebase is used as a database and to implement authentication",
@@ -26,7 +26,7 @@ function Projects() {
       <ProjectTemplate
         projectName={"Realtor"}
         technologyUsed={["Next.JS, ", "REST API, ", "Chakra UI"]}
-        imageSource={"../images/realtor.png"}
+        imageSource={"images/realtor.png"}
         features={[
           "Chakra UI was used for fast creation of user interface",
           "All of the properties are taken from Bayut API",
@@ -43,7 +43,7 @@ function Projects() {
           "GraphCMS, ",
           "Tailwind CSS",
         ]}
-        imageSource={"../images/blog.png"}
+        imageSource={"images/blog.png"}
         features={[
           "Tailwind CSS UI is used for fast creation of user interface",
           "GraphQL is used to make queries, GraphCMS is used to easily create and manage content",

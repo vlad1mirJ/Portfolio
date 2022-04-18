@@ -5,7 +5,7 @@ function Hero() {
   return (
     <Section id="hero">
       <Container>
-        <img src="../images/developer-icon.svg" alt="" />
+        <img src="images/developer-icon.svg" alt="" />
         <Greeting>👋 Hi there! I'm</Greeting>
         <Name>
           <span style={{ color: "rgba(132, 68, 223, 1)" }}>Vladimiras</span>{" "}
