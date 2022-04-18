@@ -26,6 +26,9 @@ function Contact() {
         if (res.status === 200) {
           setShowSuccessMessage(true)
           setTimeout(() => setShowSuccessMessage(false), 5000)
+          setName("")
+          setEmail("")
+          setMessage("")
         } else {
           setShowErrorMessage(true)
           setTimeout(() => setShowErrorMessage(false), 5000)
