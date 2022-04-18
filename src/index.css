@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  /* font-family: 'Roboto Mono', monospace; */
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+img,
+label,
+li,
+p,
+nav,
+small,
+ul,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+@keyframes slideIn {
+  0% {
+    left: 150%;
+  }
+  100% {
+    left: 50%;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: 130%;
+  }
+}
