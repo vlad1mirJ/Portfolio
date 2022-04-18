@@ -23,7 +23,7 @@ function Hero() {
           <Projects>
             <a href="#projects">See my Work</a>
           </Projects>
-          <a href="../src/Resume.pdf" download>
+          <a href="/Resume.pdf" download>
             <Resume>Resume</Resume>
           </a>
         </Buttons>
